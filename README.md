@@ -4,10 +4,10 @@
 
 # Reviewing Server Communication
 
-?: Choose which of the following IS NOT part of the process of programming "favoriting" a social media post.
+?: Choose which of the following is NOT part of the process of programming "favoriting" a social media post.
 
-( ) A click event on a heart icon triggers when the icon is clicked by an user.
-(X) The source HTML file is updated to display a full heart icon.
+( ) A click event on a heart icon triggers a function.
+(X) The source HTML file is updated to display a filled-in heart icon.
 ( ) The DOM is updated to display a full heart icon.
 ( ) A message is sent to the server when the click event runs.
 
@@ -15,7 +15,7 @@
 
 ( ) another name for `fetch()`.
 ( ) a specific technology for asynchronous web programming.
-(X) the technique we use for sending and receiving data behind the scenes of a rendered web page.
+(X) a technique used for sending and receiving data on the web without a page refresh.
 ( ) a way to render HTML pages.
 
 ?: Choose the correct code sample for creating an event that uses `fetch()` to receive data and update the DOM.
@@ -64,7 +64,7 @@ fetch("https://anapioficeandfire.com/api/books")
 
 (X) True ( ) False
 
-?: Which of the following technologies ARE NOT involved in using AJAX?
+?: Which of the following technologies is NOT involved in using AJAX?
 
 ( ) JSON
 ( ) the JavaScript event loop
@@ -95,5 +95,12 @@ let lis = document.querySelectorAll("li");
 ```
 
 (X) True ( ) False
+
+?: After a call to `fetch`, the `catch` function \_\_\_
+
+( ) can only be used once.
+( ) sets up a handler for when the request is resolved.
+(X) invokes its callback when there is an error in the request.
+( ) can only be called after a call to `then`.
 
 ???
