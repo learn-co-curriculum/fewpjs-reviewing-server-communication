@@ -8,7 +8,7 @@
 
 ( ) A click event on a heart icon triggers a function.
 (X) The source HTML file is updated to display a filled-in heart icon.
-( ) The DOM is updated to display a full heart icon.
+( ) The DOM is updated to display a filled-in icon.
 ( ) A message is sent to the server when the click event runs.
 
 ?: AJAX refers to:
