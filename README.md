@@ -14,7 +14,7 @@
 ?: AJAX refers to:
 
 ( ) another name for `fetch()`.
-( ) a specific technology for asynchronous web programming.
+( ) a particular method from the jquery library.
 (X) a technique used for sending and receiving data on the web without a page refresh.
 ( ) a way to render HTML pages.
 
