@@ -24,6 +24,7 @@
 
 ```javascript
 fetch("http://api.open-notify.org/astros.json").then(function(response) {
+  // update DOM here
   return response.json();
 });
 ```
@@ -36,6 +37,7 @@ fetch("http://api.open-notify.org/astros.json")
     return response.json();
   })
   .then(function(json) {
+    // update DOM here
     console.log(json);
   });
 ```
@@ -44,6 +46,7 @@ fetch("http://api.open-notify.org/astros.json")
 
 ```javascript
 fetch("http://api.open-notify.org/astros.json").then(function(json) {
+  // update DOM here
   console.log(json);
 });
 ```
@@ -52,6 +55,7 @@ fetch("http://api.open-notify.org/astros.json").then(function(json) {
 
 ```javascript
 fetch("http://api.open-notify.org/astros.json");
+// update DOM here
 ```
 
 ?: The following code is a correct way to make a web request using `fetch()`:
@@ -78,9 +82,9 @@ fetch("https://anapioficeandfire.com/api/books")
 ?: The following snippet represents a synchronous block of code:
 
 ```javascript
-let tooMuchData = oneFetch("http://genome.example.com/...");
+let data = ['cats', 'rule', 'the', 'internet'];
 let lis = document.querySelectorAll("li");
-console.log(tooMuchData);
+console.log(data);
 ```
 
 ( ) False (X) True
@@ -88,9 +92,9 @@ console.log(tooMuchData);
 ?: The following code represents an asynchronous block of code:
 
 ```javascript
-oneFetch("http://genome.example.com/...", tonOfGeneticData =>
-  sequenceClone(tonOfGeneticData)
-);
+fetch("http://genome.example.com/...")
+  .then(tonOfGeneticData =>
+    sequenceClone(tonOfGeneticData));
 let lis = document.querySelectorAll("li");
 ```
 
